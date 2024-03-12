@@ -10,7 +10,7 @@
     <div> 
       <h2><a href="./tests.html"><center>ВЫЙТИ</center></a></h2>
       <h2><center>
-        <form id="questionsForms">
+        <form class="question">
           <h6>Вопрос 1</h6>
           <label><input type="radio" name="question1" value="1">
             Ответ 1
@@ -24,6 +24,8 @@
           <label><input type="radio" name="question1" value="4">
             Ответ 4
           </label><br>
+        </form>
+        <form class="question">
           <h6>Вопрос 2</h6>
           <label><input type="radio" name="question2" value="1">
             Ответ 1
@@ -37,8 +39,8 @@
           <label><input type="radio" name="question2" value="4">
             Ответ 4
           </label><br>
-          <button onclick="endTest()" id="button">ЗАВЕРШИТЬ</button>
-        </form>
+        </form> 
+        <button id="end-button">ЗАВЕРШИТЬ</button>
       </center></h2>
     </div> 
   </body>
